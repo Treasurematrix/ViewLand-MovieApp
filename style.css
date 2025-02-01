@@ -83,3 +83,55 @@ background: #0e171e;
    color: #fff; 
    font-size: 14px;
 }
+.detail button{
+    background: #347691;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transform: 0.2s;
+    transition: 0.3s;
+}
+
+
+.favorite-movies {
+    width: 100%;
+    padding: 20px 30px;
+    background: #0e171e;
+    color: #fff;
+}
+
+.favorite-movies h2 {
+    font-size: 24px;
+    color: #347691;
+}
+
+.favorite-movie {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #347691;
+    border-radius: 5px;
+    transition:  0.3s;
+}
+
+.favorite-movie:hover {
+    background: rgba(52, 118, 145, 0.1);
+}
+
+.add-favorite-button {
+    padding: 10px 20px;
+    background: #347691;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.add-favorite-button:hover {
+    background: #2a5a6c;
+}
