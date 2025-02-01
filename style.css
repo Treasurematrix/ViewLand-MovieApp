@@ -1,0 +1,85 @@
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    padding: 40px 60px;
+    display : flex;
+    justify-content: space-between;
+    background: #1a2430;
+}
+.header .logo h3 {
+    color: goldenrod;
+}
+.header .logo h3 span{
+    color: rgb(20, 88, 20);
+}
+.header .logo {
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+}
+.header .search{
+    display: flex;
+}
+.header .search input{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.header .search button{
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.movies{
+width: 100%;
+padding: 20px 30px;
+background: #0e171e;
+}
+.movies h3{
+    font-size: 22px;
+    color: #347691;
+}
+.movies .container {
+    max-width: 100%;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.movies .container .box{
+    margin-left: 20px;
+    margin-top: 15px;
+    transition: 0.5s;
+}
+.movies .container .box:hover img{
+    opacity: 0.3;
+}
+.movies .container .box .detail{
+    container: 400px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+.movies .container .box .detail h3{
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    font-size: 16px;
+}
+.movies .container .box .detail h4{
+   margin-top: 10px;
+   color: #fff; 
+   font-size: 14px;
+}
